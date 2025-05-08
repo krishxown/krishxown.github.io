@@ -1,4 +1,4 @@
-$(document).ready(function(){ 
+$(document).ready(function() {
     $('#characterLeft').text('140 characters left');
     $('#message').keydown(function () {
         var max = 140;
@@ -6,13 +6,12 @@ $(document).ready(function(){
         if (len >= max) {
             $('#characterLeft').text('You have reached the limit');
             $('#characterLeft').addClass('red');
-            $('#btnSubmit').addClass('disabled');            
-        } 
-        else {
+            $('#submit').addClass('disabled');
+        } else {
             var ch = max - len;
             $('#characterLeft').text(ch + ' characters left');
-            $('#btnSubmit').removeClass('disabled');
-            $('#characterLeft').removeClass('red');            
+            $('#submit').removeClass('disabled');
+            $('#characterLeft').removeClass('red');
         }
-    });    
+    });
 });
