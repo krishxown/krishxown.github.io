@@ -1,0 +1,74 @@
+body {
+  height: 100%;
+}
+nav {
+  opacity: 0.75;
+ }
+.navbar>.container .navbar-brand-centered, .navbar>.container-fluid .navbar-brand-centered {
+  margin-left: -100px;
+}
+#brand_link {
+  text-decoration: none;
+  color: #777;
+}
+#brand_link:hover {
+  color: #333;
+}
+#intro {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/736x/91/dc/85/91dc854720b7fb525966d222677986c5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -30px;
+  padding-top: 40px;
+  height: 100vh;
+}
+#about {
+  background-image: url("http://thenextweb.com/wp-content/blogs.dir/1/files/2013/11/success.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -60px;  
+  height: 111vh;
+  padding-top: 40px;
+  
+}
+#portfolio {
+  background-image: url("http://cdn.blessthisstuff.com/imagens/stuff/field-theories-leather-portfolios-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -60px;
+  color: #FFFFCC;
+  height: 105vh;
+  padding-top: 50px;
+}
+#spacer {
+  height: 30px;
+}
+.hover {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover:hover {
+	opacity: .5;
+}
+#contact {
+  background-image: url("https://ay201b.files.wordpress.com/2013/04/cassiopeia_a_spitzer_crop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -150px -20px;
+  height: 160vh;
+  padding-top: 50px;
+  color: #fff;
+}
+
+.red{
+    color:red;
+    }
+.form-area
+{
+  background-color: #FAFAFA;
+  opacity: 0.8;
+	padding: 10px 40px 60px;
+	margin: 60px 0px 60px;
+	border: 1px solid GREY;
+	}
